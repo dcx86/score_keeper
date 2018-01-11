@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Kendo Score Keeper</string>
+    <string name="aka">Aka</string>
+    <string name="shiro">Shiro</string>
+    <string name="menAri">Men</string>
+    <string name="koteAri">Kote</string>
+    <string name="doAri">Dō</string>
+    <string name="tsukiAri">Tsuki</string>
+    <string name="hansoku">Hansoku</string>
+    <string name="reset">Reset</string>
+</resources>
