@@ -84,7 +84,7 @@
                 android:layout_gravity="right"
                 android:layout_marginBottom="8dp"
                 android:layout_marginRight="8dp"
-                android:onClick="addHalfForAka"
+                android:onClick="addHalfForShiro"
                 android:text="@string/hansoku" />
 
         </LinearLayout>
@@ -166,7 +166,7 @@
                 android:layout_gravity="left"
                 android:layout_marginBottom="8dp"
                 android:layout_marginLeft="8dp"
-                android:onClick="addHalfForShiro"
+                android:onClick="addHalfForAka"
                 android:text="@string/hansoku" />
 
         </LinearLayout>
