@@ -26,4 +26,7 @@ limitations under the License.
     <dimen name="margin_top">24dp</dimen>
     <dimen name="text_size_title">14sp</dimen>
     <dimen name="text_size_score">56sp</dimen>
+    <dimen name="land_text_margin_bottom">8sp</dimen>
+    <dimen name="land_margin_top">16sp</dimen>
+    <dimen name="land_margin_bottom">4sp</dimen>
 </resources>

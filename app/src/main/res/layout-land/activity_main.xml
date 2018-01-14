@@ -29,16 +29,50 @@
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:layout_gravity="bottom"
+            android:layout_weight="3"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginBottom="@dimen/button_margin_bottom"
+                android:onClick="addOneForAka"
+                android:text="@string/menAri" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginBottom="@dimen/button_margin_bottom"
+                android:onClick="addOneForAka"
+                android:text="@string/koteAri" />
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginBottom="@dimen/button_margin_bottom"
+                android:onClick="addOneForAka"
+                android:text="@string/doAri" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
             android:orientation="vertical">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="right"
-                android:layout_marginBottom="@dimen/text_margin_bottom"
+                android:layout_marginBottom="@dimen/land_text_margin_bottom"
                 android:layout_marginRight="@dimen/text_margin_right"
-                android:layout_marginTop="@dimen/margin_top"
+                android:layout_marginTop="@dimen/land_margin_top"
                 android:fontFamily="sans-serif-medium"
                 android:text="@string/aka"
                 android:textAllCaps="true"
@@ -50,39 +84,12 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="right"
-                android:layout_marginBottom="@dimen/text_margin_bottom"
+                android:layout_marginBottom="@dimen/land_text_margin_bottom"
                 android:layout_marginRight="@dimen/text_margin_right"
                 android:fontFamily="sans-serif-light"
                 android:text="0"
                 android:textColor="@color/colorPrimary"
                 android:textSize="@dimen/text_size_score" />
-
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="right"
-                android:layout_marginBottom="@dimen/button_margin_bottom"
-                android:layout_marginRight="@dimen/button_margin_right"
-                android:onClick="addOneForAka"
-                android:text="@string/menAri" />
-
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="right"
-                android:layout_marginBottom="@dimen/button_margin_bottom"
-                android:layout_marginRight="@dimen/button_margin_right"
-                android:onClick="addOneForAka"
-                android:text="@string/koteAri" />
-
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="right"
-                android:layout_marginBottom="@dimen/button_margin_bottom"
-                android:layout_marginRight="@dimen/button_margin_right"
-                android:onClick="addOneForAka"
-                android:text="@string/doAri" />
 
             <Button
                 android:layout_width="wrap_content"
@@ -107,22 +114,22 @@
         <View
             android:layout_width="1dp"
             android:layout_height="match_parent"
-            android:layout_marginTop="@dimen/margin_top"
+            android:layout_marginTop="@dimen/land_margin_top"
             android:background="@color/colorPrimary" />
 
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:layout_weight="2"
             android:orientation="vertical">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="left"
-                android:layout_marginBottom="@dimen/text_margin_bottom"
+                android:layout_marginBottom="@dimen/land_text_margin_bottom"
                 android:layout_marginLeft="@dimen/text_margin_left"
-                android:layout_marginTop="@dimen/margin_top"
+                android:layout_marginTop="@dimen/land_margin_top"
                 android:fontFamily="sans-serif-medium"
                 android:text="@string/shiro"
                 android:textAllCaps="true"
@@ -134,39 +141,13 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="left"
-                android:layout_marginBottom="@dimen/text_margin_bottom"
+                android:layout_marginBottom="@dimen/land_text_margin_bottom"
                 android:layout_marginLeft="@dimen/text_margin_left"
                 android:fontFamily="sans-serif-light"
                 android:text="0"
                 android:textColor="@color/colorPrimary"
                 android:textSize="@dimen/text_size_score" />
 
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="left"
-                android:layout_marginBottom="@dimen/button_margin_bottom"
-                android:layout_marginLeft="@dimen/button_margin_left"
-                android:onClick="addOneForShiro"
-                android:text="@string/menAri" />
-
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="left"
-                android:layout_marginBottom="@dimen/button_margin_bottom"
-                android:layout_marginLeft="@dimen/button_margin_left"
-                android:onClick="addOneForShiro"
-                android:text="@string/koteAri" />
-
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="left"
-                android:layout_marginBottom="@dimen/button_margin_bottom"
-                android:layout_marginLeft="@dimen/button_margin_left"
-                android:onClick="addOneForShiro"
-                android:text="@string/doAri" />
 
             <Button
                 android:layout_width="wrap_content"
@@ -188,6 +169,39 @@
 
         </LinearLayout>
 
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="3"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginBottom="@dimen/button_margin_bottom"
+                android:onClick="addOneForShiro"
+                android:text="@string/menAri" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginBottom="@dimen/button_margin_bottom"
+                android:onClick="addOneForShiro"
+                android:text="@string/koteAri" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginBottom="@dimen/button_margin_bottom"
+                android:onClick="addOneForShiro"
+                android:text="@string/doAri" />
+
+        </LinearLayout>
+
     </LinearLayout>
 
     <Button
@@ -195,7 +209,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="@dimen/button_margin_bottom"
+        android:layout_marginBottom="@dimen/land_margin_bottom"
         android:onClick="resetScore"
         android:text="@string/reset" />
 
